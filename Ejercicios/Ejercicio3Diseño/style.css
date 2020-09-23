@@ -25,13 +25,16 @@ li a{
 
 li:hover{
     background-color: cyan;
-
+}
+li a:hover{
+    color: black;
 }
 
 .noMenu{
     display: none;
+    margin-left:100px;
 }
 
-ul li 
+
 
 
