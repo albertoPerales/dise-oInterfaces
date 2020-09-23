@@ -1,0 +1,37 @@
+ul{
+    
+    width: 150px;
+    text-align: center;
+    
+    
+   
+}
+
+li {
+    list-style-type: none;
+    color: white;
+    padding: 20px;
+    background-color: blue;
+    border-bottom: white solid;
+    position: relative;
+    
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+li:hover{
+    background-color: cyan;
+
+}
+
+.noMenu{
+    display: none;
+}
+
+ul li 
+
+
