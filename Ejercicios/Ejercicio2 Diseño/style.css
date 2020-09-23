@@ -1,0 +1,48 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0%;
+    font-size: 1em;
+
+
+}
+main{
+    margin-top: 20px;
+    float: left;
+    width: 60%;
+}
+
+#cabecera{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header{
+    padding: 20px;
+}
+
+#cabecera nav ul li{
+    display: inline;
+    padding: 30px;
+    list-style: none;
+}
+
+#cabecera nav ul li a{
+    text-decoration: none;
+    color:white
+}
+
+footer{
+    text-align: center;
+}
+
+#tabla{
+    float: right;
+    width: 40%;
+   
+}
+
+#contenido{
+    margin-top: 10px;
+}
