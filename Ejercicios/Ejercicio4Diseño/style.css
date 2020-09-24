@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'Trebuchet_MS';
+    src: url(fonts/Trebuchet_MS.ttf);
+}
+@font-face{
+    font-family:'BALLW___';
+    src: url(fonts/BALLW___.TTF);
+}
+@font-face{
+    font-family: 'DAYROM__';
+    src: url(fonts/DAYROM__.ttf);
+}
+
+body{
+    margin: 50px;
+    background-color: rgb(253, 247, 215);
+    color: black;
+    margin-top: 10px;
+}
+
+
+#logoStyle{
+    font-family: 'BALLW___'; 
+    display: inline;
+    font-size:2.5em;
+ 
+}
+h3, h2{
+    font-family: 'DAYROM__';
+}
+
+nav{
+    display: inline;
+    position: absolute;
+    /*PREGUNTAR ESTO PORQUE ESTÁ MUY CHAPUZAS*/
+    top: 85px;
+    left: 730px;
+    
+  
+}
+
+    
+
+ #navigation li{
+     list-style-type: none;
+     display: inline;
+     margin-right: 20px;
+ }
+ #navigation li a{
+     text-decoration: none;
+     color: black;
+     font-family: 'DAYROM__';
+     font-size: 1.5em;
+     padding: 10px;
+ }
+ #navigation li a:hover{
+     color: rgb(165, 120, 37);
+     transition: .3s;
+ }
+
