@@ -1,10 +1,6 @@
 ul{
-    
     width: 150px;
     text-align: center;
-    
-    
-   
 }
 
 li {
@@ -14,7 +10,6 @@ li {
     background-color: blue;
     border-bottom: white solid;
     position: relative;
-    
 }
 
 li a{
@@ -25,14 +20,27 @@ li a{
 
 li:hover{
     background-color: cyan;
+    transition: all .3s;
 }
 li a:hover{
     color: black;
+    transition: all .3s;
 }
 
-.noMenu{
+ul.noMenu{
+    position: absolute;
     display: none;
-    margin-left:100px;
+}
+
+.noMenu li a {
+    visibility: visible;
+    display: block;
+
+}
+.noMenu li:hover{
+    
+
+
 }
 
 
