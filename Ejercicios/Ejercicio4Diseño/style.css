@@ -3,12 +3,24 @@
     src: url(fonts/Trebuchet_MS.ttf);
 }
 @font-face{
-    font-family:'BALLW___';
-    src: url(fonts/BALLW___.TTF);
+    font-family: 'BallparkWiner';
+    src: url('fonts/ballpark.eot');
+    src: url(fonts/ballpark.eot?#iefix) format ('embebed-opentype'),
+         url('fonts/ballpark.woff') format('woff'),
+         url('fonts/ballpark.ttf') format ('truetype'),
+         url('fonts/ballpark.xvg#BallparkWeiner') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face{
-    font-family: 'DAYROM__';
-    src: url(fonts/DAYROM__.ttf);
+    font-family: 'Dayrom';
+    src: url('fonts/dayrom.eot');
+    src: url('fonts/dayrom.eot?#iefix') format ('embebed-opentype'),
+         url('fonts/dayrom.woff') format('woff'),
+         url('fonts/dayrom.ttf') format ('truetype'),
+         url('fonts/dayrom.xvg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body{
@@ -16,8 +28,14 @@ body{
     background-color: rgb(253, 247, 215);
     color: black;
     margin-top: 10px;
+    margin: 50px;
 }
 
+#prueba{
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
 
 #logoStyle{
     font-family: 'BALLW___'; 
@@ -28,14 +46,15 @@ body{
 h3, h2{
     font-family: 'DAYROM__';
 }
-
-nav{
+h2{}
+nav ul li{
     display: inline;
-    position: absolute;
-    /*PREGUNTAR ESTO PORQUE ESTÁ MUY CHAPUZAS*/
-    top: 85px;
-    left: 730px;
+    float: right;
 
+}
+nav ul{
+    width: 50%;
+    float: right;
 }
 
  #navigation li{
@@ -51,8 +70,9 @@ nav{
      padding: 10px;
  }
  #navigation li a:hover{
-     color: rgb(165, 120, 37);
-     transition: .3s;
+     color: rgb(119, 16, 13);
+     border-bottom: 2px solid rgb(119, 16, 13);
+
  }
 
  #sf_bridge{
@@ -80,15 +100,10 @@ aside{
   
 }
 
-
 footer{
     clear:both;
 }
 
-
-#container{
-   
-}
 #last_week {
     float: left;
     width: 30%;

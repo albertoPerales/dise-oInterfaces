@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#contenedor{
+    width: 900px;
+    margin:0 auto;
+}
+
+p{
+    font-size: 60px;
+}
+
+header{
+    position: fixed;
+}
+
+nav{
+    width: 900px;
+    height: 150px;
+    background-color: blue;
+    
+}
+
+
+section{
+    font-weight: 60px;
+    background-color: yellow;
+    width: 900px;
+    overflow: auto;
+    margin:auto;
+
+}
+
+
+
+
+/*.cuadrado{
+    width: 100px;
+    height: 100px;
+    border: solid 3px red;
+    position: absolute;
+    bottom: 50%; 
+    right: 50%; 
+}
+
+#contenedor{
+    width: 900px;
+    height: 500px;   
+    border: solid 3px green;
+    position: absolute;
+    justify-content: center;
+s
+
+}
+
+.cuadrado:hover{
+    float:left;
+}*/
